@@ -25,6 +25,21 @@ public class PictureTester
     beach.explore();
   }
   
+  public static void testNegate()
+  {
+    Picture beach = new Picture("beach.jpg");
+    beach.explore();
+    beach.negate();
+    beach.explore();
+  }
+  
+  public static void testGrayscale()
+  {
+    Picture beach = new Picture("beach.jpg");
+    beach.explore();
+    beach.grayscale();
+    beach.explore();
+  }
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
@@ -72,21 +87,21 @@ public class PictureTester
     testKeepOnlyGreen();
     testNegate();
     testGrayscale();
-    testFixUnderwater();
-    testMirrorVertical();
-    testMirrorTemple();
-    testMirrorArms();
-    testMirrorGull();
-    testMirrorDiagonal();
-    testCollage();
-    testCopy();
-    estEdgeDetection();
-    testEdgeDetection2();
-    testChromakey();
-    testEncodeAndDecode();
-    testGetCountRedOverValue(250);
-    testSetRedToHalfValueInTopHalf();
-    testClearBlueOverValue(200);
-    testGetAverageForColumn(0);
+  //  testFixUnderwater();
+  //  testMirrorVertical();
+  //  testMirrorTemple();
+   // testMirrorArms();
+   // testMirrorGull();
+  //  testMirrorDiagonal();
+   // testCollage();
+   // testCopy();
+  //  estEdgeDetection();
+   // testEdgeDetection2();
+   // testChromakey();
+   // testEncodeAndDecode();
+    //testGetCountRedOverValue(250);
+    //testSetRedToHalfValueInTopHalf();
+    //testClearBlueOverValue(200);
+    //testGetAverageForColumn(0);
   }
 }
