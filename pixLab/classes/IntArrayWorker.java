@@ -111,4 +111,16 @@ public class IntArrayWorker
     return count;
   }
  
+ public int getLargest() {
+   int largest = matrix[0][0];
+   for (int [] i: matrix) {
+     for (int j: i) {
+       if (j>largest) {
+         largest = j;
+       }
+     }
+   }
+   return largest;
+ }
+ 
 }
