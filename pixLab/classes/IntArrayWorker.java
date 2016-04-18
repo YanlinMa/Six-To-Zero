@@ -99,4 +99,9 @@ public class IntArrayWorker
     }
   }
  
+  public getCount() {
+    
+  
+  }
+ 
 }
